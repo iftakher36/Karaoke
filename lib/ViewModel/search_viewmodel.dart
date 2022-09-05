@@ -41,7 +41,7 @@ class SearchViewModel with ChangeNotifier {
           ScaffoldMessenger.of(context)
               .showSnackBar(SnackBar(content: Text(e.toString())));
         }
-      }
+       }
     }
   }
 
